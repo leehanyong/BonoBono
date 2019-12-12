@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "server": "cd KaKaoTalk/back && npm run start",
+    "server:npm": "cd KaKaoTalk/back && npm i --save",
     "client": "cd KaKaoTalk/front && npm run start",
-    "client:build": "cd front && npm run build",
+    "client:npm": "cd KaKaoTalk/front && npm i --save",
+    "client:build": "cd KaKaoTalk/front && npm run build",
+    "total:npm" : "npm run client:npm && npm run server:npm",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
