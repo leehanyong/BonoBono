@@ -1,0 +1,14 @@
+{
+  "name": "kakaotalk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd KaKaoTalk/back && npm run start",
+    "client": "cd KaKaoTalk/front && npm run start",
+    "client:build": "cd front && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
